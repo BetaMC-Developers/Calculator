@@ -5,5 +5,5 @@ version: 1.0
 commands:
   dice:
     description: Very basic in-game calculator command
-    usage: /<command> (Number 1) (Operator) (Number 2)
+    usage: /<command> <num1> <+,-,*,/> <num2>
     aliases: [calc, calculator]
