@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a0c28083-b8cb-4d59-ac6f-47dd0892b3b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/betamc/bmcdice/BMCDice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/betamc/calculator/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/betamc/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/betamc/calculator/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +29,12 @@
     &quot;assignee&quot;: &quot;svgaming234&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/BetaMC-Developers/BMCDice.git&quot;,
-    &quot;accountId&quot;: &quot;ad132dab-80cc-4464-8a09-68db03097ea9&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/BetaMC-Developers/Calculator.git",
+    "accountId": "ad132dab-80cc-4464-8a09-68db03097ea9"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -51,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/svgaming/git/Beta-1.7.3-Staff-Client",
+    "last_opened_file_path": "/home/svgaming/git/Calculator",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2"

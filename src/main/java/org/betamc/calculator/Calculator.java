@@ -16,13 +16,13 @@ public class Calculator extends JavaPlugin {
 
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (label.equalsIgnoreCase("calc") || label.equalsIgnoreCase("calculator")) {
-            float num1, num2, result;
-            String operator = args[1];
-
             if (args.length < 3) {
                 sender.sendMessage("§cError: Not enough arguments");
                 return false;
             }
+
+            float num1, num2, result;
+            String operator = args[1];
 
             try {
                 num1 = Float.parseFloat(args[0]);
