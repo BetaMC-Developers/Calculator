@@ -1,0 +1,9 @@
+name: Calculator
+main: org.betamc.calculator.Calculator
+version: 1.0
+
+commands:
+  dice:
+    description: Very basic in-game calculator command
+    usage: /<command> (Number 1) (Operator) (Number 2)
+    aliases: [calc, calculator]
