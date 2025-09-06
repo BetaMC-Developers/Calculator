@@ -6,13 +6,9 @@ import org.bukkit.command.CommandSender;
 
 
 public class Calculator extends JavaPlugin {
-    public void onEnable() {
-        getServer().getLogger().info("[Calculator] Plugin loaded.");
-    }
-
-    public void onDisable() {
-
-    }
+    public void onEnable() { getServer().getLogger().info("[Calculator] Plugin loaded."); }
+    public void onDisable() {}
+    private static String trimTrailingZeros(float number) { return Float.toString(number).replaceAll("\\.?0*$", ""); }
 
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (label.equalsIgnoreCase("calc") || label.equalsIgnoreCase("calculator")) {
@@ -51,7 +47,7 @@ public class Calculator extends JavaPlugin {
                     return false;
             }
 
-            sender.sendMessage("Result of §a" + num1 + operator + num2 + "§f: §a" + result);
+            sender.sendMessage("Result of §a" + trimTrailingZeros(num1) + " §f" + operator + " §a" + trimTrailingZeros(num2) + "§f: §a" + trimTrailingZeros(result));
         }
 
         return true;
